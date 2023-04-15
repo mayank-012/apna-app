@@ -9,16 +9,17 @@ import Nav from "../../Components/Nav/Nav.jsx";
 import { auth } from './firebase.jsx'
 import pic1 from "./Untitled design (9).png"
 
-import { signInWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
+// import { signUpWithEmailAndPassword } from 'firebase/auth';
 
 
 
-const SignIn = () => {
+const SignUp = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const signIn = (e) => {
+    const signUp = (e) => {
         e.preventDefault();
-        signInWithEmailAndPassword(auth, email, password)
+        createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 console.log(userCredential);
             }).catch((error) => {
@@ -33,8 +34,8 @@ const SignIn = () => {
 
 
             <div class="login-box">
-                <p>Login</p>
-                <form onSubmit={signIn}>
+                <p>SIGN UP</p>
+                <form onSubmit={signUp}>
                     <div class="user-box">
                         <input  type="email"
                         placeholder='enter email'
@@ -61,7 +62,7 @@ const SignIn = () => {
       <span></span>Submit</a></button>
                   
                 </form>
-                <p>Don't have an account? <a href="/signup" class="a2">Sign up!</a></p>
+                <p>Have an account? <a href="/login" class="a2">Login!</a></p>
             </div>
 
 
@@ -77,7 +78,7 @@ const SignIn = () => {
     )
 }
 
-export default SignIn
+export default SignUp
 
 
 
