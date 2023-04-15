@@ -1,6 +1,8 @@
 import HomePage from './PatientPages/HomePage/homepage';
 import Design from './PatientPages/Ambulance/design';
 import SignIn from './PatientPages/LoginPage/login';
+import SignUp from './PatientPages/LoginPage/Signup';
+
 
 import {
   PatientProfile} from './PatientPages/PatientProfile/PatientProfile';
@@ -20,6 +22,8 @@ function App() {
           <Route exact path="/ambulance" element={<Design />} />
           <Route exact path="/login" element={<SignIn />} />
           <Route exact path="/patientprofile" element={<PatientProfile />} />
+          <Route exact path="/signup" element={<SignUp />} />
+
 
 
           
