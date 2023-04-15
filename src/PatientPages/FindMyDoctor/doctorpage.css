@@ -3,7 +3,7 @@
   }
   
   .right-side{
-    background-color: yellow;
+    /* background-color: yellow; */
   }
   
   
@@ -22,7 +22,7 @@
     left:0px;
     height:95%;
     top:56px;
-    background-color: red;
+    /* background-color: red; */
   
   
     /* vertical-align: top; */
@@ -37,7 +37,7 @@
     width: 75%;
     z-index: 0;
     height:95%;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
   }
   
   
