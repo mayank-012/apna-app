@@ -1,0 +1,21 @@
+.navz{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    background-color: #e2e2e2;
+    z-index: 1;
+  
+}
+.nav-img{
+    position:fixed;
+    top:-190px;
+    right: 0px;
+    z-index: 1;
+   
+
+}
+.right{
+    width:20%;
+    top:0;
+}
