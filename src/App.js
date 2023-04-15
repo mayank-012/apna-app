@@ -2,6 +2,8 @@ import HomePage from './PatientPages/HomePage/homepage';
 import Design from './PatientPages/Ambulance/design';
 import SignIn from './PatientPages/LoginPage/login';
 import SignUp from './PatientPages/LoginPage/Signup';
+import Doctorpage from './PatientPages/FindMyDoctor/doctorpage';
+
 
 
 import {
@@ -23,6 +25,8 @@ function App() {
           <Route exact path="/login" element={<SignIn />} />
           <Route exact path="/patientprofile" element={<PatientProfile />} />
           <Route exact path="/signup" element={<SignUp />} />
+          <Route exact path="/findmydoctor" element={<Doctorpage />} />
+
 
 
 
