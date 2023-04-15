@@ -1,0 +1,28 @@
+.div-1{
+    position: absolute;
+    top:535px;
+    left: 222.5px;
+}
+
+.div-2{
+    position: absolute;
+    top:535px;
+    left: 468px;
+}
+
+.div-3{
+    position: absolute;
+    top:625px;
+    left: 250px;
+}
+
+.div-4{
+    position: absolute;
+    top:625px;
+    left: 455px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
