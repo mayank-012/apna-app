@@ -4,7 +4,7 @@ import Nav from "../../Components/Nav/Nav.jsx";
 
 
 import './PatientProfile.css';
-import pic1 from './DSC_0056.jpg';
+import pic1 from './patient.jpg';
 import pic2 from './checkreport.png';
 import pic3 from './chatbot.png';
 import pic4 from './recent medicine.png';
@@ -19,17 +19,24 @@ export const PatientProfile = (props) => {
     <div>
 
       <div className='parent'>
-      <Nav />
+        <Nav />
         <div className="profile-left">
-          <h2 className="abcd">Patient's Profile</h2> <hr></hr>
-          <div className="texts">
+          <article class="card">
+            <div class="temporary_text">
             <img className="picture" alt="profile-photo" src={pic1} />
-            <p className="up"> Name-Prakash Uphadaya</p>
-            <p> Age-20, Gender-Male</p>
-            <p> Weight-50kg</p>
-            <p> Height-5'6</p>
-            <p className="down"> Blood Group-A+</p>
-          </div>
+            </div>
+            <div class="card_content">
+              <span class="card_title">Mitali Dwivedi</span>
+              <span class="card_subtitle">.</span>
+              
+              <p className="m"> Age-20, Gender-Male</p>
+              <p className="m"> Weight-50kg</p>
+              <p className="m"> Height-5'6</p>
+              <p className="down"> Blood Group-A+</p>
+
+            </div>
+          </article>
+
 
         </div>
 
@@ -57,16 +64,16 @@ export const PatientProfile = (props) => {
 
         </div>
 
-       
-          <div className="chatbot">
- 
-    <p className="chat">CHATBOT</p><df-messenger
+
+        <div className="chatbot">
+
+          <p className="chat">CHATBOT</p><df-messenger
             chat-title="HealthSakhaChatbot"
             agent-id="5e2e2c3a-07d2-48b9-a5e6-05097e030f28"
             language-code="en"
           ></df-messenger></div>
 
-        
+
       </div>
 
     </div>
@@ -75,3 +82,16 @@ export const PatientProfile = (props) => {
   )
 }
 
+
+{/* <div class="card">
+            <div class="blob"></div>
+            <span class="img"><img className="picture" alt="profile-photo" src={pic1} /></span>
+            <h2 className="abcd">Patient's Profile</h2> 
+            <div className="texts">
+              <p className="up"> Name-Prakash Uphadaya</p>
+              <p className="m"> Age-20, Gender-Male</p>
+              <p className="m"> Weight-50kg</p>
+              <p className="m"> Height-5'6</p>
+              <p className="down"> Blood Group-A+</p>
+            </div>
+          </div> */}
