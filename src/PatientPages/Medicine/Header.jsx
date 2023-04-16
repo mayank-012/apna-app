@@ -81,7 +81,7 @@ const Header = () => {
                             <th style={{width:"20%"}}>Name</th>
                             <th style={{width:"20%"}}>Date</th>
                             <th style={{width:"20%" }}>Reffered By</th>
-                            <th style={{width:"20%" }}>Laboratory</th>
+                            
 
                         </tr>
                         <tr>
