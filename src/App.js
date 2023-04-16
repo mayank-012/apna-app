@@ -7,7 +7,7 @@ import Future from './future/future';
 import DSignIn from './DoctorPages/Login/doctorlogin';
 import { DoctorProfile } from './DoctorPages/DoctorsProfile/DoctorProfile';
 import Medicine from './PatientPages/Medicine/medicine';
-
+import { CheckReports } from './PatientPages/CheckReports/CheckReports';
 
  
 import  {PatientProfile} from './PatientPages/PatientProfile/PatientProfile.jsx';
@@ -33,6 +33,9 @@ function App() {
           <Route exact path="/dlogin" element={<DSignIn />} />
           <Route exact path="/dprofile" element={<DoctorProfile />} />
           <Route exact path="/prescribedmedicine" element={<Medicine />} />
+          <Route exact path="/checkreports" element={<CheckReports />} />
+
+
 
 
 
