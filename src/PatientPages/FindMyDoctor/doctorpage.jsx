@@ -11,7 +11,37 @@ export default function Doctorpage(props) {
             <Nav/>
 
             <div className='left-div'>
-                <div className="patient"><h4>Patient Profile</h4></div>
+            <button style={{ top: "13px", left: "10px" }} class="cta">
+                    <span style={{ color: "black" }}>CHECK REPORTS</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+
+                <button style={{ top: "73px", left: "10px" }} class="cta">
+                    <span style={{ color: "black" }}>PRESCRIBED MEDICINE</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+
+                <button style={{ top: "133px", left: "10px" }} class="cta">
+                    <span style={{ color: "black" }}>AMBULANCE</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+
+                <button style={{ top: "193px", left: "10px" }} class="cta">
+                    <span style={{ color: "black" }}>FIND MY DOCTOR</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
                
             </div>
 
