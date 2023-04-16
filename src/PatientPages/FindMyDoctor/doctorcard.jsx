@@ -18,6 +18,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -32,6 +34,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -46,6 +50,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -60,6 +66,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -74,6 +82,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -91,6 +101,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -105,6 +117,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -119,6 +133,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -133,6 +149,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -147,6 +165,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -163,6 +183,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -177,6 +199,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -191,6 +215,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -205,6 +231,8 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
+
   </div>
 </div>
 
@@ -219,6 +247,7 @@ function Doctorcard() {
     <p className="text head">Dr. Nehru</p>
     <span>PMCH</span>
     <p className="text price">cardiologist</p>
+    <button style={{}} onClick={myFunction}>Connect</button>
   </div>
 </div>
 
