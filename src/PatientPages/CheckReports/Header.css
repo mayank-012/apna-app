@@ -1,0 +1,101 @@
+.main{
+  background-color: grey;
+}
+
+.right-side{
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+.left-div {
+ position: fixed;
+  width: 25%;
+  left:0px;
+  height:95%;
+  top:56px;
+  background-color: white;
+
+
+ 
+}
+
+.right-div {
+  position: absolute;
+  top:56px;
+  right: 0px;
+  width: 74.5%;
+  z-index: 0;
+  height:95%;
+  background-color: white;
+}
+
+
+.patient{
+  position: absolute;
+  text-align: center;
+  top:15px;
+  left:95px;
+  background-color: #222344;
+  width:53%;
+  height: 45px;
+  color: white;
+  border-radius: 10px;
+
+}
+
+.patient-profile {
+  position:relative;
+ 
+  width: 75%;
+  
+  left: 0px;
+  top:70px ;
+  display: inline-block;
+ 
+  background-color: #e2e2e2;
+  
+  /* background-color: #e2e2e2; */
+  border: 1px solid rgba(0, 0, 0, 0.107);
+  border-radius: 20px;
+  /* add any other styles you want */
+}
+
+.picture{
+  position: relative;
+  border-radius: 0px;;
+  margin:20px;
+}
+.Report{
+  position: absolute;
+  text-align:center;;
+  top:15px;
+  left:10px;
+  background-color: #222344;
+  width:98%;
+  height: 45px;
+  color: white;
+  border-radius: 10px;
+}
+h4{
+  position: relative;
+  top: 6px;
+}
+
+.tables{
+  position: relative;
+  top:100px;
+}
+table{
+  width: 100%;
+}
+
+
+.art{
+  width: 5%;
+  height: 50%;
+}

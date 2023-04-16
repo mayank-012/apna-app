@@ -4,7 +4,7 @@ import Nav from "../../Components/Nav/Nav.jsx";
 
 import Header from './Header'
 
-export const PatientProfile =() =>{
+export const CheckReports =() =>{
 
     return (
             <div>

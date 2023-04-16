@@ -8,8 +8,8 @@ import DSignIn from './DoctorPages/Login/doctorlogin';
 import { DoctorProfile } from './DoctorPages/DoctorsProfile/DoctorProfile';
 
 
-import {
-  PatientProfile} from './PatientPages/PatientProfile/PatientProfile';
+ 
+import  {PatientProfile} from './PatientPages/PatientProfile/PatientProfile.jsx';
 
 
 
