@@ -104,6 +104,10 @@ Fast, flexible and pragmatic, PHP powers everything from your blog to the most p
 - [Cloud services](https://cloud.google.com/) - Cloud services facilitate the flow of user data from front-end clients (e.g., users' servers, tablets, desktops, laptops—anything on the users' ends), through the internet, to the provider's systems, and back.
 - [HTML](https://html.com/) - HTML is the standard markup language for Web pages. With HTML you can create your own Website.
 - Cascading Style Sheets(CSS) - CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.
+#### Cloud Integrations
+- [Dialogflow](https://dialogflow.cloud.google.com/) - High-performance infrastructure for cloud computing, data analytics & machine learning. Secure, reliable and high performance cloud services.
+-  [Firebase](https://firebase.google.com/) - Firebase is an app development platform that helps you build and grow apps and games users love.
+-  
 ## 🧰 Contributions
 Made with 💝
 - [Suraj Kumar](https://github.com/suraj-markup) 
