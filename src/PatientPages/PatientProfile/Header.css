@@ -13,7 +13,7 @@
     left:0px;
     height:95%;
     top:56px;
-    background-color:#470a8e;
+    background-color:#222344;
 
   }
 
@@ -25,7 +25,7 @@
     width: 79.5%;
     z-index: 0;
     height:95%;
-    background-color: green;
+    background-color: rgb(209, 207, 207);
   }
 
 
@@ -176,9 +176,9 @@
     width: 110%;
     height: 100%;
 }
-h2{
+h2, h3{
   color:#392ec4;
-  text-align: center;
+ 
 }
 .parent {
     display: flex;
@@ -186,6 +186,17 @@ h2{
   
   background-color:linear-gradient(to left, #33ccff 0%, #ff99cc 92%);;  
     align-items: center;
+  }
+
+  .history{
+    padding: 35px;
+    background-color: white;
+    position:absolute;
+    border-radius: 30px;
+    height: 80%;
+    width: 45%;
+    bottom:50px;
+    right: 30px;
   }
   
   .profile-right{

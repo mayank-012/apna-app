@@ -70,32 +70,7 @@ const SignIn = () => {
 
 
 
-            {/* <div className='login'>
-                <form onSubmit={signIn}>
-                    <h1>WELCOME TO HEALTHसखा</h1>
-                    <h2>Login</h2>
-                    <label>E-mail</label>
-                    <input
-                        type="email"
-                        placeholder='enter email'
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                    ></input>
-                <label>Password</label>
-                    <input
-                        type="password"
-                        placeholder='enter password'
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-
-                    ></input>
-                    <button type='submit'> Login</button>
-                </form>
-                <p><Link to="/signup">Don't have an account? Sign Up here.</Link></p>
-
-            </div> */}
-
-
+            
         </div>
     )
 }
