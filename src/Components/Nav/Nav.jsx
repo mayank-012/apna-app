@@ -1,11 +1,19 @@
 import React from "react";
 import './Nav.css';
 // import { Link } from 'react-router-dom';
+import { onAuthStateChanged, signOut } from 'firebase/auth';
+import { auth } from "../../PatientPages/LoginPage/firebase";
 
 import picinfinte from "./Health.png";
 
 
 export default function Nav(props) {
+
+  const UserSignOut = () => {
+    signOut(auth).then(() => {
+        console.log("Sign ou Successfully")
+    }).catch(error => console.log("Sign out Failure"));
+}
   return (
 
     <div className="navz" >
@@ -33,7 +41,7 @@ export default function Nav(props) {
                   <li><a className="dropdown-item" href="#">Settings</a></li>
 
                   <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="/login">Logout</a></li>
+                  <li><a className="dropdown-item"  onClick={UserSignOut}>Logout</a></li>
                 </ul>
               </li>
               <div className="right"> 

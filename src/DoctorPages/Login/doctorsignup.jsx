@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './login.css';
+import './doctorlogin.css';
 
 import Nav from "../../Components/Nav/Nav.jsx";
 
@@ -8,8 +8,7 @@ import pic1 from "./Untitled design (9).png"
 
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 
-
-const SignUp = () => {
+const DsignUp = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const signUp = (e) => {
@@ -60,11 +59,12 @@ const SignUp = () => {
                 <p>Have an account? <a href="/login" class="a2">Login!</a></p>
             </div>
 
+
         </div>
     )
 }
 
-export default SignUp
+export default DsignUp
 
 
 

@@ -51,7 +51,7 @@ const Header = () => {
 
             <div className="right-div">
                 <div className="Report"><h4>PRESCRIBED MEDICINE</h4></div>
-                    <div className="profile-right">
+                    <div className="r">
                         <article class="card">
                             <div class="temporary_text">
                                 <img className="picture" alt="profile-photo" src={pic1} />

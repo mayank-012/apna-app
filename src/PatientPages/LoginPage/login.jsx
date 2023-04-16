@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import './login.css';
-// import { Link } from 'react-router-dom';
-// import Nav from '../../Components/Nav'
+
 import Nav from "../../Components/Nav/Nav.jsx";
-// import PropTypes from 'prop-types';
-// import Footer from '../../Components/Footer'
-// import { auth } from '../../firebase';
+
 import { auth } from './firebase.jsx'
 import pic1 from "./Untitled design (9).png"
 

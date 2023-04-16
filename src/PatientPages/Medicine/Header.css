@@ -89,7 +89,22 @@
     border:none;
     padding: 5px;
   }
- 
+ .r{
+  position: absolute;
+  top: 15%;
+  right: 50%;
+  width: 30%;
+  height: 70%;
+  padding:1rem 0 1rem 0;
+  margin-right: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  
+  border: 1px solid rgba(0, 0, 0, 0.067);
+  border-radius: 20px;
+  text-align: center;
+
+ }
   .tables1{
     position: relative;
     top:10px;
