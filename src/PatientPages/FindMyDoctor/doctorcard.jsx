@@ -9,95 +9,94 @@ function Doctorcard() {
   }
   return (
     <>
-    
-     
-   
-     <div className='container'>
-      
-      <div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
+    <div className="card1" style={{position:"absolute",left:"30px",top:"100px"}}>
+  <div className="card-details1">
+    <p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
   </div>
-  <button className="card-button">More info</button>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
 </div>
 
-<div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
+    <div className="card1" style={{position:"absolute",left:"250px",top:"100px"}}>
+
+  <div className="card-details1">
+<p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
   </div>
-  <button className="card-button">More info</button>
-</div>
-<div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
-  </div>
-  <button className="card-button">More info</button>
-</div>
-<div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
-  </div>
-  <button className="card-button">More info</button>
-</div>
-<div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
-  </div>
-  <button className="card-button">More info</button>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
 </div>
 
+    <div className="card1" style={{position:"absolute",left:"470px",top:"100px"}}>
 
-     </div>
-
-     <div className='container'>
-      
-      <div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
+  <div className="card-details1">
+<p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
   </div>
-  <button className="card-button">More info</button>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
 </div>
 
-<div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
+    <div className="card1" style={{position:"absolute",left:"690px",top:"100px"}}>
+
+  <div className="card-details1">
+<p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
   </div>
-  <button className="card-button">More info</button>
-</div>
-<div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
-  </div>
-  <button className="card-button">More info</button>
-</div>
-<div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
-  </div>
-  <button className="card-button">More info</button>
-</div>
-<div className="card">
-  <div className="card-details">
-    <p className="text-title">Card title</p>
-    <p className="text-body">Here are the details of the card</p>
-  </div>
-  <button className="card-button">More info</button>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
 </div>
 
+    <div className="card1" style={{position:"absolute", left:"910px",top:"100px"}}>
 
-     </div>
+  <div className="card-details1">
+<p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
+  </div>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
+</div>
 
-    
-    </>
+<div className="card1" style={{position:"absolute",left:"30px",top:"384px"}}>
+  <div className="card-details1">
+<p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
+  </div>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
+</div>
+
+    <div className="card1" style={{position:"absolute",left:"250px",top:"384px"}}>
+
+  <div className="card-details1">
+<p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
+  </div>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
+</div>
+
+    <div className="card1" style={{position:"absolute",left:"470px",top:"384px"}}>
+
+  <div className="card-details1">
+<p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
+  </div>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
+</div>
+
+    <div className="card1" style={{position:"absolute",left:"690px",top:"384px"}}>
+
+  <div className="card-details1">
+<p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
+  </div>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
+</div>
+
+    <div className="card1" style={{position:"absolute", left:"910px",top:"384px"}}>
+
+  <div className="card-details1">
+<p className="text-title1">Dr Nehru</p>
+    <p className="text-body1">Cardiologist IGIMS</p>
+  </div>
+  <button className="card-button1" onClick={myFunction}>Connect</button>
+</div>
+</>
     
   );
 }
