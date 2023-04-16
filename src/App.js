@@ -4,6 +4,8 @@ import SignIn from './PatientPages/LoginPage/login';
 import SignUp from './PatientPages/LoginPage/Signup';
 import Doctorpage from './PatientPages/FindMyDoctor/doctorpage';
 import Future from './future/future';
+import DSignIn from './DoctorPages/Login/doctorlogin';
+
 
 
 import {
@@ -27,6 +29,7 @@ function App() {
           <Route exact path="/signup" element={<SignUp />} />
           <Route exact path="/findmydoctor" element={<Doctorpage />} />
           <Route exact path="/future" element={<Future />} />
+          <Route exact path="/dlogin" element={<DSignIn />} />
 
 
 
