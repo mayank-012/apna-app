@@ -16,6 +16,14 @@
     background-color:#222344;
 
   }
+  .b-tech{
+
+    position: absolute;
+    height: 40%;
+    width: 80%;
+    bottom: 10px;
+    left: 30px;
+  }
 
   
   .right-div {

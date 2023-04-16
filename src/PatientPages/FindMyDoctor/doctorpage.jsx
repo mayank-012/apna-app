@@ -3,6 +3,7 @@ import './doctorpage.css';
 import Doctorcard from "./doctorcard";
 import Nav from "../../Components/Nav/Nav.jsx";
 
+import doct from "./doctor.png"
 
 export default function Doctorpage(props) {
   return (
@@ -42,7 +43,7 @@ export default function Doctorpage(props) {
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                 </button>
-               
+                <img className="b-tech" src={doct} alt="doc" />
             </div>
 
             <div className="right-div">
