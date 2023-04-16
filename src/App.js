@@ -5,7 +5,7 @@ import SignUp from './PatientPages/LoginPage/Signup';
 import Doctorpage from './PatientPages/FindMyDoctor/doctorpage';
 import Future from './future/future';
 import DSignIn from './DoctorPages/Login/doctorlogin';
-
+import { DoctorProfile } from './DoctorPages/DoctorsProfile/DoctorProfile';
 
 
 import {
@@ -30,6 +30,7 @@ function App() {
           <Route exact path="/findmydoctor" element={<Doctorpage />} />
           <Route exact path="/future" element={<Future />} />
           <Route exact path="/dlogin" element={<DSignIn />} />
+          <Route exact path="/dprofile" element={<DoctorProfile />} />
 
 
 
