@@ -88,68 +88,68 @@ const Header = () => {
                             <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">X-Ray(Leg)</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                            
                         </tr>
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                            
                         </tr>
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                            
                         </tr>
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                            
                         </tr>
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                            
                         </tr>
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                            
                         </tr>
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                            
                         </tr>
                         
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                           
                         </tr>
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                            
                         </tr>
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                            
                         </tr>
                         <tr>
                         <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
                             <td>14/09/2023</td>
                             <td>Dr. XYZ</td>
-                            <td>Lab. ABC</td>
+                           
                         </tr>
                         
 
