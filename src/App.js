@@ -6,6 +6,7 @@ import Doctorpage from './PatientPages/FindMyDoctor/doctorpage';
 import Future from './future/future';
 import DSignIn from './DoctorPages/Login/doctorlogin';
 import { DoctorProfile } from './DoctorPages/DoctorsProfile/DoctorProfile';
+import Medicine from './PatientPages/Medicine/medicine';
 
 
  
@@ -31,6 +32,9 @@ function App() {
           <Route exact path="/future" element={<Future />} />
           <Route exact path="/dlogin" element={<DSignIn />} />
           <Route exact path="/dprofile" element={<DoctorProfile />} />
+          <Route exact path="/prescribedmedicine" element={<Medicine />} />
+
+
 
 
 
