@@ -5,11 +5,7 @@ import Nav from "../../Components/Nav/Nav.jsx";
 
 import './PatientProfile.css';
 import pic1 from './patient.jpg';
-import pic2 from './checkreport.png';
-import pic3 from './chatbot.png';
-import pic4 from './recent medicine.png';
-import pic5 from './sakhaola.png';
-import pic6 from './find my doctor.png';
+
 
 
 export const PatientProfile = (props) => {
@@ -20,6 +16,7 @@ export const PatientProfile = (props) => {
 
       <div className='parent'>
         <Nav />
+        
         <div className="profile-left">
           <article class="card">
             <div class="temporary_text">
@@ -39,38 +36,37 @@ export const PatientProfile = (props) => {
 
 
         </div>
-
-        <div className="profile-right">
-        <div className="features">
-            <div className="features1"><Link to="/checkreports"><img className="pic2" alt="cliparts" src={pic2} /></Link></div>
-            <div className="features2" >
-            <button class="cta">
-  <span><Link to="/checkreports">CHECK REPORTS </Link></span>
-  
+        <button style={{right:"30%", top:"30%"}} class="cta">
+  <span><Link to="/checkreports">CHECK REPORTS</Link></span>
+  <svg viewBox="0 0 13 10" height="10px" width="15px">
+    <path d="M1,5 L11,5"></path>
+    <polyline points="8 1 12 5 8 9"></polyline>
+  </svg>
 </button>
-                
-</div>
-          </div>
 
-          <div className="features">
-            <div className="features1"><Link to="/medicine"><img className="pic4" alt="cliparts" src={pic4} /></Link></div>
-            <div className="features2"><Link to="/medicine">PRESCRIBED MEDICINE</Link></div>
-          </div>
+<button style={{right:"30%", top:"40%"}} class="cta">
+  <span><Link to="/prescribedmedicine">PRESCRIBED MEDICINE</Link></span>
+  <svg viewBox="0 0 13 10" height="10px" width="15px">
+    <path d="M1,5 L11,5"></path>
+    <polyline points="8 1 12 5 8 9"></polyline>
+  </svg>
+</button>
+<button  style={{right:"30%", top:"50%"}}class="cta">
+  <span><Link to="/ambulance">AMBULANCE</Link></span>
+  <svg viewBox="0 0 13 10" height="10px" width="15px">
+    <path d="M1,5 L11,5"></path>
+    <polyline points="8 1 12 5 8 9"></polyline>
+  </svg>
+</button>
+<button  style={{right:"30%", top:"60%"}} class="cta">
+  <span><Link to="/findmydoctor">FIND MY DOCTOR</Link></span>
+  <svg viewBox="0 0 13 10" height="10px" width="15px">
+    <path d="M1,5 L11,5"></path>
+    <polyline points="8 1 12 5 8 9"></polyline>
+  </svg>
+</button>
 
-          <div className="features">
-            <div className="features3"><Link to="/ambulance"><img className="pic5" alt="cliparts" src={pic5} /></Link></div>
-            <div className="features2"><Link to="/ambulance">AMBULANCE</Link></div>
-          </div>
-
-          <div className="features">
-            <div className="features3"><img className="pic6" alt="cliparts" src={pic6} /></div>
-            <div className="features2"><Link to="/findmydoctor">FIND MY DOCTOR</Link></div>
-          </div>
-
-      
-
-          
-        </div>
+    
 
 
       
@@ -98,4 +94,32 @@ export const PatientProfile = (props) => {
             </div>
           </div> */}
 
-          
+//           <div className="features">
+        
+//             <div className="features1"><Link to="/checkreports"><img className="pic2" alt="cliparts" src={pic2} /></Link></div>
+//             <div className="features2" >  
+//             <div id="container">
+//   <button class="learn-more">
+//     <span class="circle" aria-hidden="true">
+//       <span class="icon arrow"></span>
+//     </span>
+//     <span class="button-text">Learn More</span>
+//   </button>
+// </div>   
+//             </div>
+//           </div>
+         
+//           <div className="features">
+//             <div className="features1"><Link to="/medicine"><img className="pic4" alt="cliparts" src={pic4} /></Link></div>
+//             <div className="features2"><Link to="/medicine">PRESCRIBED MEDICINE</Link></div>
+//           </div>
+
+//           <div className="features">
+//             <div className="features3"><Link to="/ambulance"><img className="pic5" alt="cliparts" src={pic5} /></Link></div>
+//             <div className="features2"><Link to="/ambulance">AMBULANCE</Link></div>
+//           </div>
+
+//           <div className="features">
+//             <div className="features3"><img className="pic6" alt="cliparts" src={pic6} /></div>
+//             <div className="features2"><Link to="/findmydoctor">FIND MY DOCTOR</Link></div>
+//           </div>
