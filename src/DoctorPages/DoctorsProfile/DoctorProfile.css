@@ -321,3 +321,13 @@ h2{
       -ms-transform: scale(0.95);
           transform: scale(0.95);
  }
+
+ .dpr{
+  border-radius: 10px;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  left: 800px;
+  top: 200px;
+ }
