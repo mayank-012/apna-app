@@ -51,18 +51,20 @@
 
 .textBox > .head {
   font-size: 20px;
-  color: rgb(0, 0, 0);
+  color: white;
+
 
 }
 
 .textBox > .price {
   font-size: 17px;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 .textBox > span {
   font-size: 12px;
-  color: rgb(0, 0, 0);
+  color: white;
+
 }
 
 .card:hover > .textBox {

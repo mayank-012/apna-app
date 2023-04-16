@@ -23,13 +23,13 @@ export const PatientProfile = (props) => {
         <div className="profile-left">
           <article class="card">
             <div class="temporary_text">
-            <img className="picture" alt="profile-photo" src={pic1} />
+              <img className="picture" alt="profile-photo" src={pic1} />
             </div>
             <div class="card_content">
-              <span class="card_title">Mitali Dwivedi</span>
+              <h3 class="card_title">Mitali Dwivedi</h3>
               <span class="card_subtitle">.</span>
-              
-              <p className="m"> Age-20, Gender-Male</p>
+
+              <p className="up"> Age-20, Gender-Male</p>
               <p className="m"> Weight-50kg</p>
               <p className="m"> Height-5'6</p>
               <p className="down"> Blood Group-A+</p>
@@ -41,10 +41,15 @@ export const PatientProfile = (props) => {
         </div>
 
         <div className="profile-right">
-
-          <div className="features">
+        <div className="features">
             <div className="features1"><Link to="/checkreports"><img className="pic2" alt="cliparts" src={pic2} /></Link></div>
-            <div className="features2" ><Link to="/checkreports">CHECK REPORTS </Link></div>
+            <div className="features2" >
+            <button class="cta">
+  <span><Link to="/checkreports">CHECK REPORTS </Link></span>
+  
+</button>
+                
+</div>
           </div>
 
           <div className="features">
@@ -62,16 +67,13 @@ export const PatientProfile = (props) => {
             <div className="features2"><Link to="/findmydoctor">FIND MY DOCTOR</Link></div>
           </div>
 
+      
+
+          
         </div>
 
 
-        <div className="chatbot">
-
-          <p className="chat">CHATBOT</p><df-messenger
-            chat-title="HealthSakhaChatbot"
-            agent-id="5e2e2c3a-07d2-48b9-a5e6-05097e030f28"
-            language-code="en"
-          ></df-messenger></div>
+      
 
 
       </div>
@@ -95,3 +97,5 @@ export const PatientProfile = (props) => {
               <p className="down"> Blood Group-A+</p>
             </div>
           </div> */}
+
+          
