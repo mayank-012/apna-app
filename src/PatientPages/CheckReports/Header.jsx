@@ -86,68 +86,68 @@ const Header = () => {
                         <tr>
                             <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">X-Ray(Leg)</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Ramesh</td>
                             <td>Lab. ABC</td>
                         </tr>
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Thyroid Blood Tests</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Mahesh</td>
                             <td>Lab. ABC</td>
                         </tr>
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Electrocardiogram (ECG) </a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Ramu</td>
                             <td>Lab. ABC</td>
                         </tr>
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Gastroscopy</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Sindhu</td>
                             <td>Lab. ABC</td>
                         </tr>
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Colonoscopy</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Mitali Singh</td>
                             <td>Lab. ABC</td>
                         </tr>
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">MRI scan</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Saizal</td>
                             <td>Lab. ABC</td>
                         </tr>
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Rabies Tests</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Alok</td>
                             <td>Lab. ABC</td>
                         </tr>
                         
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Ultrasound</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr.Namita</td>
                             <td>Lab. ABC</td>
                         </tr>
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Gastroscopy</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Harirame</td>
                             <td>Lab. ABC</td>
                         </tr>
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Dengue</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">CT Scan</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Sumita</td>
                             <td>Lab. ABC</td>
                         </tr>
                         <tr>
-                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Malaria</a></td>
+                        <td><img src={pic2} style={{margin:"5px"}} alt="art"></img><a href="https://drive.google.com/file/d/1f-wWCyGtpawV6pYccmsyBOrBqgb4uu7N/view?usp=sharing">Biospy</a></td>
                             <td>14/09/2023</td>
-                            <td>Dr. XYZ</td>
+                            <td>Dr. Tripti</td>
                             <td>Lab. ABC</td>
                         </tr>
                            
