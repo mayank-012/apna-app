@@ -42,7 +42,7 @@ const Header = () => {
             <div className="right-div">
                 <div className="Report"><h4>DOCTOR'S PROFILE</h4></div>
                     <div className="details">
-                    <div className="profile-right">
+                    <div className="profile-r">
                         <article class="card">
                             <div class="temporary_text">
                                 <img className="picture" alt="profile-photo" src={pic1} />
@@ -68,12 +68,12 @@ const Header = () => {
                     </div>
 
                     <div className='history'>
-                        <h2 style={{textAlign:"left"}}>HEALTH HISTORY</h2>
+                        <h2 style={{textAlign:"left"}}>MY PROFILE</h2>
                         <br></br>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. .</p>
                         <br></br>
 
-                        <h3>Last Test Data</h3>
+                        <h3>UPCOMING APPOINTMENT</h3>
                         <br></br>
 
                         <p>&emsp;&emsp;&emsp;&emsp;Date  &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;20/04/2023</p>

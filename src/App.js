@@ -8,10 +8,10 @@ import DSignIn from './DoctorPages/Login/doctorlogin';
 import { DoctorProfile } from './DoctorPages/DoctorsProfile/DoctorProfile';
 import Medicine from './PatientPages/Medicine/medicine';
 import { CheckReports } from './PatientPages/CheckReports/CheckReports';
-
- 
+import Auth from './PatientPages/LoginPage/Auth';
+import DsignUp from './DoctorPages/Login/doctorsignup';
 import  {PatientProfile} from './PatientPages/PatientProfile/PatientProfile.jsx';
-
+import Prescription from './DoctorPages/Prescription/Prescription';
 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -34,15 +34,12 @@ function App() {
           <Route exact path="/dprofile" element={<DoctorProfile />} />
           <Route exact path="/prescribedmedicine" element={<Medicine />} />
           <Route exact path="/checkreports" element={<CheckReports />} />
+          <Route exact path="/auth" element={<Auth />} />
+          <Route exact path="/doctorsignup" element={<DsignUp />} />
+          <Route exact path="/newappointments" element={<Prescription />} />
 
 
 
-
-
-
-
-
-          
         </Routes>
 
         </switch>
