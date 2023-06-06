@@ -2,11 +2,11 @@
 
 Successfully deployed to the following URLs:
 
-byteverse-nerds – ./
+byteverse-nerds-git-master-suraj-markup.vercel.app
 
 byteverse-nerds.vercel.app
+
 byteverse-nerds-suraj-markup.vercel.app
-byteverse-nerds-git-master-suraj-markup.vercel.app
 
 
 
